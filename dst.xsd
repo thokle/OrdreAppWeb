@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dst" targetNamespace="http://www.tempuri.org/dst.xsd" xmlns:mstns="http://www.tempuri.org/dst.xsd" xmlns="http://www.tempuri.org/dst.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dst" msdata:IsDataSet="true" msdata:Locale="da-DK" msprop:Generator_DataSetName="dst" msprop:Generator_UserDSName="dst">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblDækning" msprop:Generator_TableClassName="tblDækningDataTable" msprop:Generator_TableVarName="tabletblDækning" msprop:Generator_TablePropName="tblDækning" msprop:Generator_RowDeletingName="tblDækningRowDeleting" msprop:Generator_RowChangingName="tblDækningRowChanging" msprop:Generator_RowEvHandlerName="tblDækningRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDækningRowDeleted" msprop:Generator_UserTableName="tblDækning" msprop:Generator_RowChangedName="tblDækningRowChanged" msprop:Generator_RowEvArgName="tblDækningRowChangeEvent" msprop:Generator_RowClassName="tblDækningRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PostNr" msprop:Generator_ColumnVarNameInTable="columnPostNr" msprop:Generator_ColumnPropNameInRow="PostNr" msprop:Generator_ColumnPropNameInTable="PostNrColumn" msprop:Generator_UserColumnName="PostNr" type="xs:string" />
+              <xs:element name="Byen" msprop:Generator_ColumnVarNameInTable="columnByen" msprop:Generator_ColumnPropNameInRow="Byen" msprop:Generator_ColumnPropNameInTable="ByenColumn" msprop:Generator_UserColumnName="Byen" type="xs:string" minOccurs="0" />
+              <xs:element name="BladId" msprop:Generator_ColumnVarNameInTable="columnBladId" msprop:Generator_ColumnPropNameInRow="BladId" msprop:Generator_ColumnPropNameInTable="BladIdColumn" msprop:Generator_UserColumnName="BladId" type="xs:int" />
+              <xs:element name="ById" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnById" msprop:Generator_ColumnPropNameInRow="ById" msprop:Generator_ColumnPropNameInTable="ByIdColumn" msprop:Generator_UserColumnName="ById" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblDækningAnden" msprop:Generator_TableClassName="tblDækningAndenDataTable" msprop:Generator_TableVarName="tabletblDækningAnden" msprop:Generator_TablePropName="tblDækningAnden" msprop:Generator_RowDeletingName="tblDækningAndenRowDeleting" msprop:Generator_RowChangingName="tblDækningAndenRowChanging" msprop:Generator_RowEvHandlerName="tblDækningAndenRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDækningAndenRowDeleted" msprop:Generator_UserTableName="tblDækningAnden" msprop:Generator_RowChangedName="tblDækningAndenRowChanged" msprop:Generator_RowEvArgName="tblDækningAndenRowChangeEvent" msprop:Generator_RowClassName="tblDækningAndenRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PostNr" msprop:Generator_ColumnVarNameInTable="columnPostNr" msprop:Generator_ColumnPropNameInRow="PostNr" msprop:Generator_ColumnPropNameInTable="PostNrColumn" msprop:Generator_UserColumnName="PostNr" type="xs:string" />
+              <xs:element name="Byen" msprop:Generator_ColumnVarNameInTable="columnByen" msprop:Generator_ColumnPropNameInRow="Byen" msprop:Generator_ColumnPropNameInTable="ByenColumn" msprop:Generator_UserColumnName="Byen" type="xs:string" minOccurs="0" />
+              <xs:element name="BladID" msprop:Generator_ColumnVarNameInTable="columnBladID" msprop:Generator_ColumnPropNameInRow="BladID" msprop:Generator_ColumnPropNameInTable="BladIDColumn" msprop:Generator_UserColumnName="BladID" type="xs:int" />
+              <xs:element name="ById" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnById" msprop:Generator_ColumnPropNameInRow="ById" msprop:Generator_ColumnPropNameInTable="ByIdColumn" msprop:Generator_UserColumnName="ById" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblPrimaerKommuner" msprop:Generator_TableClassName="tblPrimaerKommunerDataTable" msprop:Generator_TableVarName="tabletblPrimaerKommuner" msprop:Generator_TablePropName="tblPrimaerKommuner" msprop:Generator_RowDeletingName="tblPrimaerKommunerRowDeleting" msprop:Generator_RowChangingName="tblPrimaerKommunerRowChanging" msprop:Generator_RowEvHandlerName="tblPrimaerKommunerRowChangeEventHandler" msprop:Generator_RowDeletedName="tblPrimaerKommunerRowDeleted" msprop:Generator_UserTableName="tblPrimaerKommuner" msprop:Generator_RowChangedName="tblPrimaerKommunerRowChanged" msprop:Generator_RowEvArgName="tblPrimaerKommunerRowChangeEvent" msprop:Generator_RowClassName="tblPrimaerKommunerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BladId" msprop:Generator_ColumnVarNameInTable="columnBladId" msprop:Generator_ColumnPropNameInRow="BladId" msprop:Generator_ColumnPropNameInTable="BladIdColumn" msprop:Generator_UserColumnName="BladId" type="xs:int" minOccurs="0" />
+              <xs:element name="Kommune" msprop:Generator_ColumnVarNameInTable="columnKommune" msprop:Generator_ColumnPropNameInRow="Kommune" msprop:Generator_ColumnPropNameInTable="KommuneColumn" msprop:Generator_UserColumnName="Kommune" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblSekundaerKommuner" msprop:Generator_TableClassName="tblSekundaerKommunerDataTable" msprop:Generator_TableVarName="tabletblSekundaerKommuner" msprop:Generator_TablePropName="tblSekundaerKommuner" msprop:Generator_RowDeletingName="tblSekundaerKommunerRowDeleting" msprop:Generator_RowChangingName="tblSekundaerKommunerRowChanging" msprop:Generator_RowEvHandlerName="tblSekundaerKommunerRowChangeEventHandler" msprop:Generator_RowDeletedName="tblSekundaerKommunerRowDeleted" msprop:Generator_UserTableName="tblSekundaerKommuner" msprop:Generator_RowChangedName="tblSekundaerKommunerRowChanged" msprop:Generator_RowEvArgName="tblSekundaerKommunerRowChangeEvent" msprop:Generator_RowClassName="tblSekundaerKommunerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BladId" msprop:Generator_ColumnVarNameInTable="columnBladId" msprop:Generator_ColumnPropNameInRow="BladId" msprop:Generator_ColumnPropNameInTable="BladIdColumn" msprop:Generator_UserColumnName="BladId" type="xs:int" minOccurs="0" />
+              <xs:element name="Kommune" msprop:Generator_ColumnVarNameInTable="columnKommune" msprop:Generator_ColumnPropNameInRow="Kommune" msprop:Generator_ColumnPropNameInTable="KommuneColumn" msprop:Generator_UserColumnName="Kommune" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblOplagWEB" msprop:Generator_TableClassName="tblOplagWEBDataTable" msprop:Generator_TableVarName="tabletblOplagWEB" msprop:Generator_TablePropName="tblOplagWEB" msprop:Generator_RowDeletingName="tblOplagWEBRowDeleting" msprop:Generator_RowChangingName="tblOplagWEBRowChanging" msprop:Generator_RowEvHandlerName="tblOplagWEBRowChangeEventHandler" msprop:Generator_RowDeletedName="tblOplagWEBRowDeleted" msprop:Generator_UserTableName="tblOplagWEB" msprop:Generator_RowChangedName="tblOplagWEBRowChanged" msprop:Generator_RowEvArgName="tblOplagWEBRowChangeEvent" msprop:Generator_RowClassName="tblOplagWEBRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PostNr" msprop:Generator_ColumnVarNameInTable="columnPostNr" msprop:Generator_ColumnPropNameInRow="PostNr" msprop:Generator_ColumnPropNameInTable="PostNrColumn" msprop:Generator_UserColumnName="PostNr" type="xs:int" />
+              <xs:element name="Oplag" msprop:Generator_ColumnVarNameInTable="columnOplag" msprop:Generator_ColumnPropNameInRow="Oplag" msprop:Generator_ColumnPropNameInTable="OplagColumn" msprop:Generator_UserColumnName="Oplag" type="xs:int" />
+              <xs:element name="BladID" msprop:Generator_ColumnVarNameInTable="columnBladID" msprop:Generator_ColumnPropNameInRow="BladID" msprop:Generator_ColumnPropNameInTable="BladIDColumn" msprop:Generator_UserColumnName="BladID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblMmTyper" msprop:Generator_TableClassName="tblMmTyperDataTable" msprop:Generator_TableVarName="tabletblMmTyper" msprop:Generator_TablePropName="tblMmTyper" msprop:Generator_RowDeletingName="tblMmTyperRowDeleting" msprop:Generator_RowChangingName="tblMmTyperRowChanging" msprop:Generator_RowEvHandlerName="tblMmTyperRowChangeEventHandler" msprop:Generator_RowDeletedName="tblMmTyperRowDeleted" msprop:Generator_UserTableName="tblMmTyper" msprop:Generator_RowChangedName="tblMmTyperRowChanged" msprop:Generator_RowEvArgName="tblMmTyperRowChangeEvent" msprop:Generator_RowClassName="tblMmTyperRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OrdreNr" msprop:Generator_ColumnVarNameInTable="columnOrdreNr" msprop:Generator_ColumnPropNameInRow="OrdreNr" msprop:Generator_ColumnPropNameInTable="OrdreNrColumn" msprop:Generator_UserColumnName="OrdreNr" type="xs:int" />
+              <xs:element name="SlutVist" msprop:Generator_ColumnVarNameInTable="columnSlutVist" msprop:Generator_ColumnPropNameInRow="SlutVist" msprop:Generator_ColumnPropNameInTable="SlutVistColumn" msprop:Generator_UserColumnName="SlutVist" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Annoncør" msprop:Generator_ColumnVarNameInTable="columnAnnoncør" msprop:Generator_ColumnPropNameInRow="Annoncør" msprop:Generator_ColumnPropNameInTable="AnnoncørColumn" msprop:Generator_UserColumnName="Annoncør" type="xs:string" minOccurs="0" />
+              <xs:element name="Betegnelse" msprop:Generator_ColumnVarNameInTable="columnBetegnelse" msprop:Generator_ColumnPropNameInRow="Betegnelse" msprop:Generator_ColumnPropNameInTable="BetegnelseColumn" msprop:Generator_UserColumnName="Betegnelse" type="xs:string" minOccurs="0" />
+              <xs:element name="Format" msprop:Generator_ColumnVarNameInTable="columnFormat" msprop:Generator_ColumnPropNameInRow="Format" msprop:Generator_ColumnPropNameInTable="FormatColumn" msprop:Generator_UserColumnName="Format" type="xs:string" minOccurs="0" />
+              <xs:element name="AntalFarver" msprop:Generator_ColumnVarNameInTable="columnAntalFarver" msprop:Generator_ColumnPropNameInRow="AntalFarver" msprop:Generator_ColumnPropNameInTable="AntalFarverColumn" msprop:Generator_UserColumnName="AntalFarver" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="FejlID" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFejlID" msprop:Generator_ColumnPropNameInRow="FejlID" msprop:Generator_ColumnPropNameInTable="FejlIDColumn" msprop:Generator_UserColumnName="FejlID" type="xs:int" minOccurs="0" />
+              <xs:element name="Bemærkning" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBemærkning" msprop:Generator_ColumnPropNameInRow="Bemærkning" msprop:Generator_ColumnPropNameInTable="BemærkningColumn" msprop:Generator_UserColumnName="Bemærkning" type="xs:string" minOccurs="0" />
+              <xs:element name="EnOrdre" msprop:Generator_ColumnVarNameInTable="columnEnOrdre" msprop:Generator_ColumnPropNameInRow="EnOrdre" msprop:Generator_ColumnPropNameInTable="EnOrdreColumn" msprop:Generator_UserColumnName="EnOrdre" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Kulør" msprop:Generator_ColumnVarNameInTable="columnKulør" msprop:Generator_ColumnPropNameInRow="Kulør" msprop:Generator_ColumnPropNameInTable="KulørColumn" msprop:Generator_UserColumnName="Kulør" type="xs:string" minOccurs="0" />
+              <xs:element name="AnnoncørID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnAnnoncørID" msprop:Generator_ColumnPropNameInRow="AnnoncørID" msprop:Generator_ColumnPropNameInTable="AnnoncørIDColumn" msprop:Generator_UserColumnName="AnnoncørID" type="xs:int" />
+              <xs:element name="mmType" msprop:Generator_ColumnVarNameInTable="columnmmType" msprop:Generator_ColumnPropNameInRow="mmType" msprop:Generator_ColumnPropNameInTable="mmTypeColumn" msprop:Generator_UserColumnName="mmType" type="xs:unsignedByte" />
+              <xs:element name="BladId" msprop:Generator_ColumnVarNameInTable="columnBladId" msprop:Generator_ColumnPropNameInRow="BladId" msprop:Generator_ColumnPropNameInTable="BladIdColumn" msprop:Generator_UserColumnName="BladId" type="xs:int" />
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblWEBPrimærDækning" msprop:Generator_TableClassName="tblWEBPrimærDækningDataTable" msprop:Generator_TableVarName="tabletblWEBPrimærDækning" msprop:Generator_TablePropName="tblWEBPrimærDækning" msprop:Generator_RowDeletingName="tblWEBPrimærDækningRowDeleting" msprop:Generator_RowChangingName="tblWEBPrimærDækningRowChanging" msprop:Generator_RowEvHandlerName="tblWEBPrimærDækningRowChangeEventHandler" msprop:Generator_RowDeletedName="tblWEBPrimærDækningRowDeleted" msprop:Generator_UserTableName="tblWEBPrimærDækning" msprop:Generator_RowChangedName="tblWEBPrimærDækningRowChanged" msprop:Generator_RowEvArgName="tblWEBPrimærDækningRowChangeEvent" msprop:Generator_RowClassName="tblWEBPrimærDækningRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BladId" msprop:Generator_ColumnVarNameInTable="columnBladId" msprop:Generator_ColumnPropNameInRow="BladId" msprop:Generator_ColumnPropNameInTable="BladIdColumn" msprop:Generator_UserColumnName="BladId" type="xs:int" />
+              <xs:element name="postNrOgBy" msprop:Generator_ColumnVarNameInTable="columnpostNrOgBy" msprop:Generator_ColumnPropNameInRow="postNrOgBy" msprop:Generator_ColumnPropNameInTable="postNrOgByColumn" msprop:Generator_UserColumnName="postNrOgBy" type="xs:string" />
+              <xs:element name="Primær" msprop:Generator_ColumnVarNameInTable="columnPrimær" msprop:Generator_ColumnPropNameInRow="Primær" msprop:Generator_ColumnPropNameInTable="PrimærColumn" msprop:Generator_UserColumnName="Primær" type="xs:boolean" />
+              <xs:element name="PKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnPKey" msprop:Generator_ColumnPropNameInRow="PKey" msprop:Generator_ColumnPropNameInTable="PKeyColumn" msprop:Generator_UserColumnName="PKey" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NavisionContact" msprop:Generator_TableClassName="NavisionContactDataTable" msprop:Generator_TableVarName="tableNavisionContact" msprop:Generator_TablePropName="NavisionContact" msprop:Generator_RowDeletingName="NavisionContactRowDeleting" msprop:Generator_RowChangingName="NavisionContactRowChanging" msprop:Generator_RowEvHandlerName="NavisionContactRowChangeEventHandler" msprop:Generator_RowDeletedName="NavisionContactRowDeleted" msprop:Generator_UserTableName="NavisionContact" msprop:Generator_RowChangedName="NavisionContactRowChanged" msprop:Generator_RowEvArgName="NavisionContactRowChangeEvent" msprop:Generator_RowClassName="NavisionContactRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OrdreNr" msprop:Generator_ColumnVarNameInTable="columnOrdreNr" msprop:Generator_ColumnPropNameInRow="OrdreNr" msprop:Generator_ColumnPropNameInTable="OrdreNrColumn" msprop:Generator_UserColumnName="OrdreNr" type="xs:int" />
+              <xs:element name="SlutVist" msprop:Generator_ColumnVarNameInTable="columnSlutVist" msprop:Generator_ColumnPropNameInRow="SlutVist" msprop:Generator_ColumnPropNameInTable="SlutVistColumn" msprop:Generator_UserColumnName="SlutVist" type="xs:boolean" />
+              <xs:element name="Annoncør" msprop:Generator_ColumnVarNameInTable="columnAnnoncør" msprop:Generator_ColumnPropNameInRow="Annoncør" msprop:Generator_ColumnPropNameInTable="AnnoncørColumn" msprop:Generator_UserColumnName="Annoncør" type="xs:string" />
+              <xs:element name="Betegnelse" msprop:Generator_ColumnVarNameInTable="columnBetegnelse" msprop:Generator_ColumnPropNameInRow="Betegnelse" msprop:Generator_ColumnPropNameInTable="BetegnelseColumn" msprop:Generator_UserColumnName="Betegnelse" type="xs:string" />
+              <xs:element name="Format" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFormat" msprop:Generator_ColumnPropNameInRow="Format" msprop:Generator_ColumnPropNameInTable="FormatColumn" msprop:Generator_UserColumnName="Format" type="xs:string" minOccurs="0" />
+              <xs:element name="AntalFarver" msprop:Generator_ColumnVarNameInTable="columnAntalFarver" msprop:Generator_ColumnPropNameInRow="AntalFarver" msprop:Generator_ColumnPropNameInTable="AntalFarverColumn" msprop:Generator_UserColumnName="AntalFarver" type="xs:unsignedByte" />
+              <xs:element name="FejlID" msprop:Generator_ColumnVarNameInTable="columnFejlID" msprop:Generator_ColumnPropNameInRow="FejlID" msprop:Generator_ColumnPropNameInTable="FejlIDColumn" msprop:Generator_UserColumnName="FejlID" type="xs:unsignedByte" />
+              <xs:element name="EnOrdre" msprop:Generator_ColumnVarNameInTable="columnEnOrdre" msprop:Generator_ColumnPropNameInRow="EnOrdre" msprop:Generator_ColumnPropNameInTable="EnOrdreColumn" msprop:Generator_UserColumnName="EnOrdre" type="xs:unsignedByte" />
+              <xs:element name="Kulør" msprop:Generator_ColumnVarNameInTable="columnKulør" msprop:Generator_ColumnPropNameInRow="Kulør" msprop:Generator_ColumnPropNameInTable="KulørColumn" msprop:Generator_UserColumnName="Kulør" type="xs:string" />
+              <xs:element name="AnnoncørID" msprop:Generator_ColumnVarNameInTable="columnAnnoncørID" msprop:Generator_ColumnPropNameInRow="AnnoncørID" msprop:Generator_ColumnPropNameInTable="AnnoncørIDColumn" msprop:Generator_UserColumnName="AnnoncørID" type="xs:string" />
+              <xs:element name="mmType" msprop:Generator_ColumnVarNameInTable="columnmmType" msprop:Generator_ColumnPropNameInRow="mmType" msprop:Generator_ColumnPropNameInTable="mmTypeColumn" msprop:Generator_UserColumnName="mmType" type="xs:unsignedByte" />
+              <xs:element name="BladID" msprop:Generator_ColumnVarNameInTable="columnBladID" msprop:Generator_ColumnPropNameInRow="BladID" msprop:Generator_ColumnPropNameInTable="BladIDColumn" msprop:Generator_UserColumnName="BladID" type="xs:int" />
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" type="xs:int" />
+              <xs:element name="DPKulørID" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDPKulørID" msprop:Generator_ColumnPropNameInRow="DPKulørID" msprop:Generator_ColumnPropNameInTable="DPKulørIDColumn" msprop:Generator_UserColumnName="DPKulørID" type="xs:unsignedByte" />
+              <xs:element name="Version" msprop:Generator_ColumnVarNameInTable="columnVersion" msprop:Generator_ColumnPropNameInRow="Version" msprop:Generator_ColumnPropNameInTable="VersionColumn" msprop:Generator_UserColumnName="Version" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblMedieplanLinjer" msprop:Generator_TableClassName="tblMedieplanLinjerDataTable" msprop:Generator_TableVarName="tabletblMedieplanLinjer" msprop:Generator_TablePropName="tblMedieplanLinjer" msprop:Generator_RowDeletingName="tblMedieplanLinjerRowDeleting" msprop:Generator_RowChangingName="tblMedieplanLinjerRowChanging" msprop:Generator_RowEvHandlerName="tblMedieplanLinjerRowChangeEventHandler" msprop:Generator_RowDeletedName="tblMedieplanLinjerRowDeleted" msprop:Generator_UserTableName="tblMedieplanLinjer" msprop:Generator_RowChangedName="tblMedieplanLinjerRowChanged" msprop:Generator_RowEvArgName="tblMedieplanLinjerRowChangeEvent" msprop:Generator_RowClassName="tblMedieplanLinjerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OrdreNr" msprop:Generator_ColumnVarNameInTable="columnOrdreNr" msprop:Generator_ColumnPropNameInRow="OrdreNr" msprop:Generator_ColumnPropNameInTable="OrdreNrColumn" msprop:Generator_UserColumnName="OrdreNr" type="xs:int" />
+              <xs:element name="SlutVist" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSlutVist" msprop:Generator_ColumnPropNameInRow="SlutVist" msprop:Generator_ColumnPropNameInTable="SlutVistColumn" msprop:Generator_UserColumnName="SlutVist" type="xs:int" minOccurs="0" />
+              <xs:element name="Annoncør" msprop:Generator_ColumnVarNameInTable="columnAnnoncør" msprop:Generator_ColumnPropNameInRow="Annoncør" msprop:Generator_ColumnPropNameInTable="AnnoncørColumn" msprop:Generator_UserColumnName="Annoncør" type="xs:string" />
+              <xs:element name="Betegnelse" msprop:Generator_ColumnVarNameInTable="columnBetegnelse" msprop:Generator_ColumnPropNameInRow="Betegnelse" msprop:Generator_ColumnPropNameInTable="BetegnelseColumn" msprop:Generator_UserColumnName="Betegnelse" type="xs:string" />
+              <xs:element name="Format" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFormat" msprop:Generator_ColumnPropNameInRow="Format" msprop:Generator_ColumnPropNameInTable="FormatColumn" msprop:Generator_UserColumnName="Format" type="xs:string" minOccurs="0" />
+              <xs:element name="AntalFarver" msprop:Generator_ColumnVarNameInTable="columnAntalFarver" msprop:Generator_ColumnPropNameInRow="AntalFarver" msprop:Generator_ColumnPropNameInTable="AntalFarverColumn" msprop:Generator_UserColumnName="AntalFarver" type="xs:unsignedByte" />
+              <xs:element name="FejlID" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFejlID" msprop:Generator_ColumnPropNameInRow="FejlID" msprop:Generator_ColumnPropNameInTable="FejlIDColumn" msprop:Generator_UserColumnName="FejlID" type="xs:int" minOccurs="0" />
+              <xs:element name="EnOrdre" msprop:Generator_ColumnVarNameInTable="columnEnOrdre" msprop:Generator_ColumnPropNameInRow="EnOrdre" msprop:Generator_ColumnPropNameInTable="EnOrdreColumn" msprop:Generator_UserColumnName="EnOrdre" type="xs:unsignedByte" />
+              <xs:element name="Kulør" msprop:Generator_ColumnVarNameInTable="columnKulør" msprop:Generator_ColumnPropNameInRow="Kulør" msprop:Generator_ColumnPropNameInTable="KulørColumn" msprop:Generator_UserColumnName="Kulør" type="xs:string" />
+              <xs:element name="AnnoncørID" msprop:Generator_ColumnVarNameInTable="columnAnnoncørID" msprop:Generator_ColumnPropNameInRow="AnnoncørID" msprop:Generator_ColumnPropNameInTable="AnnoncørIDColumn" msprop:Generator_UserColumnName="AnnoncørID" type="xs:string" />
+              <xs:element name="mmType" msprop:Generator_ColumnVarNameInTable="columnmmType" msprop:Generator_ColumnPropNameInRow="mmType" msprop:Generator_ColumnPropNameInTable="mmTypeColumn" msprop:Generator_UserColumnName="mmType" type="xs:unsignedByte" />
+              <xs:element name="BladID" msprop:Generator_ColumnVarNameInTable="columnBladID" msprop:Generator_ColumnPropNameInRow="BladID" msprop:Generator_ColumnPropNameInTable="BladIDColumn" msprop:Generator_UserColumnName="BladID" type="xs:int" />
+              <xs:element name="DPKulørID" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDPKulørID" msprop:Generator_ColumnPropNameInRow="DPKulørID" msprop:Generator_ColumnPropNameInTable="DPKulørIDColumn" msprop:Generator_UserColumnName="DPKulørID" type="xs:unsignedByte" />
+              <xs:element name="Version" msprop:Generator_ColumnVarNameInTable="columnVersion" msprop:Generator_ColumnPropNameInRow="Version" msprop:Generator_ColumnPropNameInTable="VersionColumn" msprop:Generator_UserColumnName="Version" type="xs:short" />
+              <xs:element name="MedieplanNr" msprop:Generator_ColumnVarNameInTable="columnMedieplanNr" msprop:Generator_ColumnPropNameInRow="MedieplanNr" msprop:Generator_ColumnPropNameInTable="MedieplanNrColumn" msprop:Generator_UserColumnName="MedieplanNr" type="xs:int" />
+              <xs:element name="EXPR2" msprop:Generator_ColumnVarNameInTable="columnEXPR2" msprop:Generator_ColumnPropNameInRow="EXPR2" msprop:Generator_ColumnPropNameInTable="EXPR2Column" msprop:Generator_UserColumnName="EXPR2" type="xs:short" />
+              <xs:element name="SidePlacering" msprop:Generator_ColumnVarNameInTable="columnSidePlacering" msprop:Generator_ColumnPropNameInRow="SidePlacering" msprop:Generator_ColumnPropNameInTable="SidePlaceringColumn" msprop:Generator_UserColumnName="SidePlacering" type="xs:unsignedByte" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblOplagWEB" />
+      <xs:field xpath="mstns:PostNr" />
+      <xs:field xpath="mstns:BladID" />
+    </xs:unique>
+    <xs:unique name="tblWEBPrimærDækning_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblWEBPrimærDækning" />
+      <xs:field xpath="mstns:PKey" />
+    </xs:unique>
+    <xs:unique name="NavisionContact_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:NavisionContact" />
+      <xs:field xpath="mstns:OrdreNr" />
+      <xs:field xpath="mstns:AnnoncørID" />
+      <xs:field xpath="mstns:mmType" />
+      <xs:field xpath="mstns:BladID" />
+      <xs:field xpath="mstns:Expr1" />
+      <xs:field xpath="mstns:DPKulørID" />
+      <xs:field xpath="mstns:Version" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,3 @@
+<ASP:LABEL id="lblVigtigt2" style="Z-INDEX: 142; LEFT: 248px; POSITION: absolute; TOP: 410px" runat="server" width="536px" height="20px" enableviewstate="False"> Det er vigtigt, at den pris/rabat du tilbyder, er den du vil sælge til lokalt.</ASP:LABEL>
+
+<ASP:LABEL id="lblVigtigt" style="Z-INDEX: 141; LEFT: 40px; POSITION: absolute; TOP: 410px" runat="server" height="20px" width="104px" enableviewstate="False" font-bold="True">Vigtigt</ASP:LABEL>

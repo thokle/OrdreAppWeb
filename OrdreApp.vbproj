@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>7.0.9466</ProductVersion>
+    <SchemaVersion>1.0</SchemaVersion>
+    <ProjectGuid>{F649DAD2-3812-4CA4-81D8-AE24E33ED2AF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>OrdreApp</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE32Nav30</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>OrdreApp</RootNamespace>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>OrdreApp.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>OrdreApp.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ISymWrapper">
+      <Name>ISymWrapper</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.RegularExpressions">
+      <Name>System.Web.RegularExpressions</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.HtmlControls" />
+    <Import Include="System.Web.UI.WebControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Annoncekontrol.aspx.designer.vb">
+      <DependentUpon>Annoncekontrol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Annoncekontrol.aspx.vb">
+      <DependentUpon>Annoncekontrol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BemForm.aspx.designer.vb">
+      <DependentUpon>BemForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BemForm.aspx.vb">
+      <DependentUpon>BemForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deadline2.aspx.designer.vb">
+      <DependentUpon>Deadline2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deadline2.aspx.vb">
+      <DependentUpon>Deadline2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Copy of ForkertPlacering.aspx.vb">
+      <DependentUpon>DaekKort.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DaekKort.aspx.designer.vb">
+      <DependentUpon>DaekKort.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DaekKort.aspx.vb">
+      <DependentUpon>DaekKort.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deadline.aspx.designer.vb">
+      <DependentUpon>Deadline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deadline.aspx.vb">
+      <DependentUpon>Deadline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dst.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dst.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dst.vb">
+      <DependentUpon>dst.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forespoergsel.aspx.designer.vb">
+      <DependentUpon>Forespoergsel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forespoergsel.aspx.vb">
+      <DependentUpon>Forespoergsel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForkertPlacering.aspx.designer.vb">
+      <DependentUpon>ForkertPlacering.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForkertPlacering.aspx.vb">
+      <DependentUpon>ForkertPlacering.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forsendelser.aspx.designer.vb">
+      <DependentUpon>Forsendelser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forsendelser.aspx.vb">
+      <DependentUpon>Forsendelser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IndtastNavn.aspx.designer.vb">
+      <DependentUpon>IndtastNavn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IndtastNavn.aspx.vb">
+      <DependentUpon>IndtastNavn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kort.aspx.designer.vb">
+      <DependentUpon>Kort.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kort.aspx.vb">
+      <DependentUpon>Kort.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainMenu.aspx.designer.vb">
+      <DependentUpon>MainMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.aspx.vb">
+      <DependentUpon>MainMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MmPriser.aspx.designer.vb">
+      <DependentUpon>MmPriser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MmPriser.aspx.vb">
+      <DependentUpon>MmPriser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MmPriser2.aspx.designer.vb">
+      <DependentUpon>MmPriser2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MmPriser2.aspx.vb">
+      <DependentUpon>MmPriser2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Oplag.aspx.designer.vb">
+      <DependentUpon>Oplag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Oplag.aspx.vb">
+      <DependentUpon>Oplag.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PF.aspx.designer.vb">
+      <DependentUpon>PF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PF.aspx.vb">
+      <DependentUpon>PF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrimaerDaekning.aspx.designer.vb">
+      <DependentUpon>PrimaerDaekning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrimaerDaekning.aspx.vb">
+      <DependentUpon>PrimaerDaekning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrimaerKommuner.aspx.designer.vb">
+      <DependentUpon>PrimaerKommuner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrimaerKommuner.aspx.vb">
+      <DependentUpon>PrimaerKommuner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrimaerOmraader.aspx.designer.vb">
+      <DependentUpon>PrimaerOmraader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrimaerOmraader.aspx.vb">
+      <DependentUpon>PrimaerOmraader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SekundaerKommuner.aspx.designer.vb">
+      <DependentUpon>SekundaerKommuner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SekundaerKommuner.aspx.vb">
+      <DependentUpon>SekundaerKommuner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SekundaerOmraader.aspx.designer.vb">
+      <DependentUpon>SekundaerOmraader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SekundaerOmraader.aspx.vb">
+      <DependentUpon>SekundaerOmraader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SendTilKollega.aspx.designer.vb">
+      <DependentUpon>SendTilKollega.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SendTilKollega.aspx.vb">
+      <DependentUpon>SendTilKollega.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Content Include="Afslut.htm" />
+    <Content Include="Annoncekontrol.aspx" />
+    <Content Include="BemForm.aspx" />
+    <Content Include="CheckSumError.htm" />
+    <Content Include="Deadline2.aspx" />
+    <Content Include="GlemtAtAngiveSidePlacering.htm" />
+    <Content Include="DaekKort.aspx" />
+    <Content Include="Deadline.aspx" />
+    <Content Include="dst.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dst.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="FejlEditer.htm" />
+    <Content Include="FejlKonverter.htm" />
+    <Content Include="FejlOpdater.htm" />
+    <Content Include="Forespoergsel.aspx" />
+    <Content Include="ForkertPlacering.aspx" />
+    <Content Include="Forsendelser.aspx" />
+    <Content Include="frmDLU.htm" />
+    <Content Include="GlemtAtAngiveFejl.htm" />
+    <Content Include="Global.asax" />
+    <Content Include="Graphics\Ja.bmp" />
+    <Content Include="Graphics\JaCheck.bmp" />
+    <Content Include="Graphics\OkCheck.ico" />
+    <Content Include="Graphics\OkUnCheck.ico" />
+    <Content Include="Help.htm" />
+    <Content Include="IndtastNavn.aspx" />
+    <Content Include="Kort.aspx" />
+    <Content Include="LukBrowseren.htm" />
+    <Content Include="MainMenu.aspx" />
+    <Content Include="MmPriser.aspx" />
+    <Content Include="MmPriser2.aspx" />
+    <Content Include="NoeMail.htm" />
+    <Content Include="Oplag.aspx" />
+    <Content Include="OrdreStyles.css" />
+    <Content Include="PF.aspx" />
+    <Content Include="PrimaerDaekning.aspx" />
+    <Content Include="PrimaerKommuner.aspx" />
+    <Content Include="PrimaerOmraader.aspx" />
+    <Content Include="Pris1.htm" />
+    <Content Include="Pris2.htm" />
+    <Content Include="Pris3.htm" />
+    <Content Include="Pris4.htm" />
+    <Content Include="SekundaerKommuner.aspx" />
+    <Content Include="SekundaerOmraader.aspx" />
+    <Content Include="SendTilKollega.aspx" />
+    <Content Include="Web.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Annoncekontrol.aspx.resx">
+      <DependentUpon>Annoncekontrol.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BemForm.aspx.resx">
+      <DependentUpon>BemForm.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deadline2.aspx.resx">
+      <DependentUpon>Deadline2.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copy of ForkertPlacering.aspx.resx">
+      <DependentUpon>Copy of ForkertPlacering.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DaekKort.aspx.resx">
+      <DependentUpon>DaekKort.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deadline.aspx.resx">
+      <DependentUpon>Deadline.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forespoergsel.aspx.resx">
+      <DependentUpon>Forespoergsel.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForkertPlacering.aspx.resx">
+      <DependentUpon>ForkertPlacering.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forsendelser.aspx.resx">
+      <DependentUpon>Forsendelser.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndtastNavn.aspx.resx">
+      <DependentUpon>IndtastNavn.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kort.aspx.resx">
+      <DependentUpon>Kort.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.aspx.resx">
+      <DependentUpon>MainMenu.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MmPriser.aspx.resx">
+      <DependentUpon>MmPriser.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MmPriser2.aspx.resx">
+      <DependentUpon>MmPriser2.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oplag.aspx.resx">
+      <DependentUpon>Oplag.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PF.aspx.resx">
+      <DependentUpon>PF.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrimaerDaekning.aspx.resx">
+      <DependentUpon>PrimaerDaekning.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrimaerKommuner.aspx.resx">
+      <DependentUpon>PrimaerKommuner.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrimaerOmraader.aspx.resx">
+      <DependentUpon>PrimaerOmraader.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SekundaerKommuner.aspx.resx">
+      <DependentUpon>SekundaerKommuner.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SekundaerOmraader.aspx.resx">
+      <DependentUpon>SekundaerOmraader.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendTilKollega.aspx.resx">
+      <DependentUpon>SendTilKollega.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="dst.xsc">
+      <DependentUpon>dst.xsd</DependentUpon>
+    </None>
+    <None Include="dst.xss">
+      <DependentUpon>dst.xsd</DependentUpon>
+    </None>
+    <None Include="dst.xsx">
+      <DependentUpon>dst.xsd</DependentUpon>
+    </None>
+    <None Include="OrdreApp.vsdisco" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51889</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/OrdreApp</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
