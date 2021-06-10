@@ -1,4 +1,4 @@
-<%@ Page Language="vb" AutoEventWireup="false" Codebehind="Annoncekontrol.aspx.vb" Inherits="OrdreApp.Annoncekontrol" EnableSessionState="False" buffer="True"%>
+<%@ Page Language="vb" AutoEventWireup="false" Codebehind="Annoncekontrol.aspx.cs" Inherits="OrdreApp.Annoncekontrol" EnableSessionState="False" buffer="True"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
     <head>
