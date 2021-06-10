@@ -25,8 +25,7 @@
     </head>
     <body ms_positioning="GridLayout">
         <form id="OrdreForm" method="post" runat="server">
-            <h1>Annoncekontrol for
-                <%#BladNavn%>i Uge <%#Uge%>.</h1>
+            <h1>Annoncekontrol for     <%#BladNavn%>i Uge <%#Uge%>.</h1>
             <asp:datagrid id="grdOrdrer" 
               runat="server" DataMember="tblMedieplanLinjer" DataKeyField="OrdreNr" 
               DataSource="<%# Dst %>" AutoGenerateColumns="False" BorderColor="#999999" 
@@ -96,8 +95,7 @@
                   </asp:TemplateColumn>
                   <asp:TemplateColumn HeaderText="Fejl">
                     <EditItemTemplate>
-                      <asp:DropDownList ID="DropDownList2" runat="server"
-                        SelectedIndex='<%# DataBinder.Eval (Container, "DataItem.FejlID") %>' 
+                      <asp:DropDownList ID="DropDownList2" runat="server"   SelectedIndex='<%# DataBinder.Eval (Container, "DataItem.FejlID") %>' 
                         Width="175px" Height ="25px" Visible='<%# iif (FejlIAnnonce=1,"true","false") %>'>
                         <asp:ListItem value="0" Selected="True">Ingen valgt</asp:ListItem>
                         <asp:ListItem value="1">Bestilt efter deadline</asp:ListItem>
